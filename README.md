@@ -10,7 +10,7 @@ DFU tool for ReSpeaker Microphone Array
 3. Browse and select `respeaker_mic_array_8ch_raw.bin` for upgrade. Find more firmwares at [ReSpeaker_Microphone_Array_Firmware](https://github.com/respeaker/ReSpeaker_Microphone_Array_Firmware)
 4. Wait for the tool prints successful information.
 
-## On Linux
+## On Linux (embedded)
 ```
 sudo apt-get install -y pkg-config
 sudo apt-get install python3-pip
