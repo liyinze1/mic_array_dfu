@@ -1,3 +1,6 @@
+#Revised to adapt to roadrunner embedded Linux
+
+
 DFU tool for ReSpeaker Microphone Array
 =======================================
 
@@ -10,7 +13,7 @@ DFU tool for ReSpeaker Microphone Array
 ## On Linux
 ```
 sudo apt-get install libusb-1.0-0-dev 
-git clone https://github.com/respeaker/mic_array_dfu.git
+git clone https://github.com/liyinze1/mic_array_dfu.git
 cd mic_array_dfu
 make
 sudo ./dfu --download respeaker_mic_array_8ch_raw.bin
