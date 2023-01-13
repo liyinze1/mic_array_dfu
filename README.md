@@ -12,6 +12,8 @@ DFU tool for ReSpeaker Microphone Array
 
 ## On Linux
 ```
+sudo apt-get install -y pkg-config
+sudo apt-get install python3-pip
 sudo apt-get install libusb-1.0-0-dev 
 git clone https://github.com/liyinze1/mic_array_dfu.git
 cd mic_array_dfu
